@@ -1,0 +1,61 @@
+body {
+  margin: 0;
+  display: block;
+  background-color: black;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  z-index: 1;
+  font-family: Helvetica;
+  font-size: 22px;
+  font-weight: bold;
+  position: fixed;
+  width: 100%;
+  height: 69px;
+  border-bottom: 1px solid seashell;
+  background-color: black;
+  color: seashell;
+  opacity: 0.9;
+  text-align: center;
+}
+
+
+header nav {
+  padding-right: 40px;
+  display: block;
+  opacity: 0.9;
+}
+nav {
+  display: block;
+  align-items: stretch;
+  opacity: 0.9;
+}
+
+nav span {
+  display: inline-block;
+  padding: 20px 10px;
+  opacity: 0.9;
+}
+
+a {
+  cursor: auto;
+  display: inline;
+  height: inherit;
+  text-decoration: underline;
+  width: inherit;
+  color: seashell;
+  opacity: 0.9;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  flex-grow: 1;
+  padding-left: 10px;
+  height: 50px;
+  background-color: black;
+  opacity: 0.9;
+  color: seashell;
+}
