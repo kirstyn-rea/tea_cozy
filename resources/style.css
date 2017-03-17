@@ -118,7 +118,7 @@ div {
 
 .sectionA {
   display: block;
-  background-image: url(/home/kirstie/Desktop/Projects/CodecademyProjects/wk4_box_teacozy/resources/img-mission-background.jpg);
+  background-image: url(./resources/img-mission-background.jpg);
   height: 700px;
   width: 1200px;
 }
@@ -132,7 +132,7 @@ div {
   text-align: center;
 }
 .sectionC {
-  background-image: url(/home/kirstie/Desktop/Projects/CodecademyProjects/wk4_box_teacozy/resources/img-locations-background.jpg);
+  background-image: url(./resources/img-locations-background.jpg);
   height: 500px;
   width: 1200px;
   align-items: center;
